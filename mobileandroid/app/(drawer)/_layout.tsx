@@ -46,7 +46,12 @@ export default function Layout() {
                 }}>
 
                 </Drawer.Screen>
-
+                <Drawer.Screen name = "settings"
+                               options = {{
+                                title:"Settings"
+                               }}>
+                    
+                </Drawer.Screen>
             </Drawer>
 
 
